@@ -10,6 +10,8 @@
   Bootstrap CSS File -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="style.css">
+
 
 </head>
 
@@ -27,23 +29,22 @@
   </header>
 
 
-  <main id="main">
-
-    <div class="container">
-      <p>
-        At some point, you may need to change the information stored in a user’s profile. A user’s profile (also known as the user’s account) is stored in Auth0, and changes to the information it contains may need to happen for a number of different reasons:
-        <br>
-      </p>
-      <ul>
+  <div id="large-header" class="large-header">
+    <canvas id="demo-canvas"></canvas>
+      <h1 class="main-title">At some point, you may need to change the information stored in a user’s profile. A user’s profile (also known as the user’s account) is stored here, and changes to the information it contains may need to happen for a number of different reasons: <span class="thin"><ul>
         <li>Self-served information updates</li>
         <li>Mandatory updates concerning your organizations T's & C’s</li>
         <li>Changes due to regulatory compliance</li>
-      </ul>
+      </ul></span></h1>
+  </div>
+
+
+  <main id="main">
 <br>
       <h4>Already Registered With Us?</h4><h5 style="color:rgb(39, 51, 114) ;">Select Your Profile:<h5></h5>
       <div class="row">
         <div class="col-lg-2">
-          <a href="">
+          <a href="dhiru.html" target="blank">
             <img src="dhiru.jpeg" width="100" height="100"">
           </a>
         </div>
@@ -91,7 +92,16 @@
       <br>
   </main>
 
+  <div>
+  <img src="img.jpg" alt="Workplace" usemap="#workmap" width="400" height="379" >
 
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="comp.html">
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+    </map>
+  </div>
+
+<div>
   <footer id="footer">
   </footer>
   <div class="copyright py-4 text-center text-white">
@@ -99,5 +109,11 @@
 </div>
 
 
+<script src="script.js"></script>
+
 </body>
+
+
 </html>
+
+
