@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoWIN</title>
+
+    <!--Tailwind CSS CDN-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="w-full h-full">
+
+    <div class="topnav">
+        <a href=""><img src="https://www.cowin.gov.in/assets/images/covid19logo.jpg" alt="" style=" width: 200px; justify-items: center; display: flex;" class="img"></a>
+        
+      </div>
+
+    <div class="relative w-full h-full">
+
+        <div class="container relative w-6/12 flex justify-center flex-wrap">
+            <h1 class="text-3xl p-8">Vaccine Slot Availability</h1>
+            <div class="tg relative w-full p-4 flex justify-center flex-wrap">
+                <p class="w-8/12 text-xs text-left pb-1">Enter Your Full Name : </p><br>
+                <input type="text" id="username" class="w-8/12" placeholder="Name">
+            </div>
+        
+            <div class="tg relative w-full p-4 flex justify-center flex-wrap">
+                <p class="w-8/12 text-xs text-left pb-1">Enter Your Adhaar Number : </p><br>
+                <input type="password" id="username" class="w-8/12" placeholder="Adhaar Number">
+            </div>
+
+            <div class="ages relative w-full p-4 flex justify-center flex-wrap">
+                <p class="w-8/12 text-xs text-left pb-1">Vaccine Type:<p>
+                <div class="w-8/12 flex justify-around">
+                    <div>
+                        <input type="checkbox" name="vaccine" value="Any" checked="checked"><span class="pl-1">Any</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="vaccine" value="COVAXIN"><span class="pl-1">COVAXIN</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="vaccine" value="COVISHIELD"><span class="pl-1">COVISHIELD</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ages relative w-full p-4 flex justify-center flex-wrap">
+                <p class="w-8/12 text-xs text-left pb-1">Age<p>
+                <div class="w-8/12 flex justify-around">
+                    <div>
+                        <input type="radio" name="age" value="0" checked="checked"><span class="pl-1">Any</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="age" value="18"><span class="pl-1">18-44</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="age" value="45"><span class="pl-1">45+</span>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="dates relative w-full p-4 flex justify-center flex-wrap">
+                <p class="w-8/12 text-xs text-left pb-1">Date</p>
+                <div class="date-select w-8/12 flex justify-center">
+                    <input type="date" id="date" name="date">
+                </div>
+            </div>
+
+            <div class="buttons relative w-8/12 p-4 flex justify-around flex-wrap pb-10">
+                <a href="second.html"><button id="search" class="">SHOW</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="me relative text-center flex justify-center">
+        <p>Website Designed & Developed by <a href="http://www.bishaldeb.tech" target="blank">Bishal Deb</a></p>
+    </div>
+   
+</body>
+</html>
