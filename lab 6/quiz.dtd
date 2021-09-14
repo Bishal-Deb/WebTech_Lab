@@ -1,0 +1,8 @@
+<!ELement quiz(question)*>
+<!ELement question(number,ques,option1,option2,option3,option4)>
+<!ELement number(#PCDATA)*>
+<!ELement ques(#PCDATA)*>
+<!ELement option1(#PCDATA)*>
+<!ELement option2(#PCDATA)*>
+<!ELement option3(#PCDATA)*>
+<!ELement option4(#PCDATA)*>
