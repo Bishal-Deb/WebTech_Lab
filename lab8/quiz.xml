@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<quiz>
+  <question>
+    <number>Q1</number>
+    <ques>Does C Language Supports Boolean Datatype?</ques>
+    <option1>TRUE</option1>
+    <option2>FALSE</option2>
+    <option3>Record</option3>
+    <option4>File</option4>
+  </question>
+  <question>
+    <number>Q2</number>
+    <ques>What is part of a database that holds only one type of information? </ques>
+    <option1>Report</option1>
+    <option2>Field</option2>
+    <option3>MAY BE</option3>
+    <option4>NOT VALID</option4>
+  </question>
+  <question>
+    <number>Q3</number>
+    <ques>How many bits is a byte? </ques>
+    <option1>A kind of spider</option1>
+    <option2>A computer that stores WWW files</option2>
+    <option3>A person who likes to look at websites</option3>
+    <option4>A software program that allows you to access sites on the World Wide Webß</option4>
+  </question>
+    <question>
+    <number>Q4</number>
+    <ques>How many bits is a byte? </ques>
+    <option1>4</option1>
+    <option2>8</option2>
+    <option3>16</option3>
+    <option4>32</option4>
+  </question>
+    <question>
+    <number>Q5</number>
+    <ques>Which of these is a search engine? </ques>
+    <option1>FTP</option1>
+    <option2>Google</option2>
+    <option3>Archie</option3>
+    <option4>ARPANET</option4>
+  </question>
+    <question>
+    <number>Q6</number>
+    <ques>What does CPU stand for? </ques>
+    <option1>Cute People United</option1>
+    <option2>Commonwealth Press Union</option2>
+    <option3>Central Processing Unit</option3>
+    <option4>Computer Parts of USA</option4>
+  </question>
+    <question>
+    <number>Q7</number>
+    <ques>Modem stands for...</ques>
+    <option1>Modulator Demodulater</option1>
+    <option2>Monetary Devaluation Exchange Mechanism</option2>
+    <option3>Memory Demagnetization</option3>
+    <option4>Monetary Demarkation</option4>
+  </question>
+</quiz>
