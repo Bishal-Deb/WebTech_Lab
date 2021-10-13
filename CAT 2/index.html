@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GATEWAY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validator.js"></script>
+</head>
+<body>
+
+<form name="contactForm" onsubmit="return validateForm()" action="confirmation.php" method="post">
+    <h2>REGISTRATION FOR GATEWAYS 2021</h2>
+    <div class="row">
+        <label>Full Name</label>
+        <input type="text" name="name">
+        <div class="error" id="nameErr"></div>
+    </div>
+    <div class="row">
+        <label>Email Address</label>
+        <input type="text" name="email">
+        <div class="error" id="emailErr"></div>
+    </div>
+    <div class="row">
+        <label>UserID</label>
+        <input type="text" name="user">
+        <div class="error" id="userErr"></div>
+    </div>
+    <div class="row">
+        <label>Password</label>
+        <input type="password" name="password">
+        <div class="error" id="passwordErr"></div>
+    </div>
+    <div class="row">
+        <label>Mobile Number</label>
+        <input type="text" name="mobile" maxlength="10">
+        <div class="error" id="mobileErr"></div>
+    </div>
+    <div class="row">
+        <label>College/University</label>
+        <input type="text" name="college">
+        <div class="error" id="collegeErr"></div>
+    </div>
+    <div class="row">
+        <label>Branch</label>
+        <select name="branch">
+            <option>Select</option>
+            <option>MSC Statistics</option>
+            <option>MCS</option>
+            <option>MCA</option>
+            <option>IT</option>
+            <option>CSE</option>
+        </select> 
+        <div class="error" id="branchErr"></div>    
+    </div>
+    <div class="row">
+        <label>State</label>
+        <select name="country">
+            <option>Select</option>
+            <option>Karnataka</option>
+            <option>Maharashtra</option>
+            <option>Kerela</option>
+            <option>Tamilnadu</option>
+        </select> 
+        <div class="error" id="countryErr"></div>
+    </div>
+    <div class="row">
+        <label>Address</label>
+        <input type="text" name="address">
+        <div class="error" id="addressErr"></div>
+    </div>     
+    <div class="row">
+        <label>Enter your age</label>
+        <input type="number" name="age" maxlength="10">
+        <div class="error" id="ageErr"></div>
+    </div>
+    <div class="row">
+        <label>Gender</label>
+        <div class="form-inline">
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label> 
+        </div>
+        <div class="error" id="genderErr"></div>
+    </div>
+    <div class="row">
+        <label>Hobbies <i>(Optional)</i></label>
+        <div class="form-inline">
+            <label><input type="checkbox" name="hobbies[]" value="sports"> Sports</label>
+            <label><input type="checkbox" name="hobbies[]" value="movies"> Movies</label>
+            <label><input type="checkbox" name="hobbies[]" value="music"> Music</label>
+        </div>
+    </div>  
+    
+    <div class="row">
+        <a href="quiz.xml"></a><input type="submit" value="Submit" onclick="myfunction()">
+    </div>
+</form>
+</body>
+<script>
+    function myFunction() {
+      location.replace("https://www.w3schools.com")
+    }
+</script>
+</html>
