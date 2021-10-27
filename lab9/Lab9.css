@@ -1,0 +1,66 @@
+body
+{
+	background: whitesmoke;
+
+}
+
+h2{
+	color: black;
+	font-size: 23px;
+	margin-left: 25em;
+}
+form {
+
+	height: 650px;
+	width: 600px;
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	display: block;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-left: 20em;
+}
+input[type=text]
+{
+	width: 230px;
+	height: 27px;
+	border-radius: 20px;
+	font-size: 17px;
+	margin-top: 2em;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+input[type=radio]
+{
+	width: 70px;
+	height: 17px;
+	border-radius: 20px;
+	font-size: 17px;
+	margin-top: 2em;
+	border: 1px solid black;
+	padding: 5px;
+}
+input[type=checkbox]
+{
+	width: 70px;
+	height: 17px;
+	border-radius: 20px;
+	font-size: 17px;
+	margin-top: 3em;
+	border: 1px solid black;
+	padding: 5px;
+}
+input[type=submit]
+{
+	width: 220px;
+	height: 40px;
+	margin-top: 2em;
+	border-radius: 20px;
+	border: none;
+	background: orange;
+	color: white;
+	font-size: 19px;
+}
