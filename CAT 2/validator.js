@@ -13,7 +13,6 @@ function validateForm() {
     var mobile = document.contactForm.mobile.value;
     var college =  document.contactForm.college.value;
     var branch = document.contactForm.branch.value;
-    var address = document.contactForm.address.value;
     var country = document.contactForm.country.value;
     var gender = document.contactForm.gender.value;
     var hobbies = [];
@@ -26,7 +25,7 @@ function validateForm() {
     }
     
 	// Defining error variables with a default value
-    var nameErr = emailErr = userErr = passwordErr = mobileErr = collegeErr = branchErr = countryErr = addressErr = genderErr = true;
+    var nameErr = emailErr = userErr = passwordErr = mobileErr = collegeErr = branchErr = countryErr = genderErr = true;
     
     // Validate name
     if(name == "") {
@@ -94,10 +93,7 @@ function validateForm() {
         }
     }
 
-    // Validate college
-    if(college == "") {
-        printError("collegeErr", "Please enter your college/university name");
-    } 
+  
 
     // Validate Branch
     if(branch == "Select") {
@@ -115,12 +111,12 @@ function validateForm() {
         printError("countryErr", "");
         countryErr = false;
     }
-
+/*
     // Validate Address
     if(address == "") {
         printError("adressErr", "Please enter your Address");
     } 
-    
+*/  
     // Validate gender
     if(gender == "") {
         printError("genderErr", "Please select your gender");
@@ -130,7 +126,7 @@ function validateForm() {
     }
     
     // Prevent the form from being submitted if there are any errors
-    if((nameErr || emailErr || userErr || passwordErr || mobileErr || collegeErr || branchErr || countryErr || addressErr || genderErr) == true) {
+    if((nameErr || emailErr || userErr || passwordErr || mobileErr || branchErr || countryErr || genderErr) == true) {
        return false;
     } else {
         // Creating a string from input data for preview
@@ -138,6 +134,8 @@ function validateForm() {
                           "Full Name: " + name + "\n" +
                           "Email Address: " + email + "\n" +
                           "Mobile Number: " + mobile + "\n" +
+                          "College: " + college + "\n" +
+                          "Branch: " + branch + "\n" +
                           "Country: " + country + "\n" +
                           "Gender: " + gender + "\n";
         if(hobbies.length) {

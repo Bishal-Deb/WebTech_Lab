@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?DOCTYPE note
+[
+<!ELEMENT note (STU_COLLEGE,STU_NAME,STU_BRANCH,STU_EMAIL)>
+<!ELEMENT STU_COLLEGE(#PCDATA)>
+<!ELEMENT STU_NAME (#PCDATA)>
+<!ELEMENT STU_BRANCH (#PCDATA)>
+<!ELEMENT STU_EMAIL (#PCDATA)>
+
+]?>
+<?xml-stylesheet type="text/xsl" href="guidelines.xsl" ?>
+<CHRIST>
+<CS>
+<STU_COLLEGE> Christ University </STU_COLLEGE>
+<STU_NAME>Bishal Deb</STU_NAME>
+<STU_BRANCH>MCS</STU_BRANCH>
+<STU_EMAIL>bishal@cs.christuniversity.in</STU_EMAIL>
+</CS>
+<CS>
+<STU_COLLEGE> Christ University </STU_COLLEGE>
+<STU_NAME>Deeksha Reddy</STU_NAME>
+<STU_BRANCH>MCS</STU_BRANCH>
+<STU_EMAIL>deeksha.reddy@cs.christuniversity.in</STU_EMAIL>
+</CS>
+<CS>
+<STU_COLLEGE> Jain University </STU_COLLEGE>
+<STU_NAME>Sreeja Deb</STU_NAME>
+<STU_BRANCH>MCA</STU_BRANCH>
+<STU_EMAIL>Sreeja@gmail.com</STU_EMAIL>
+</CS>
+<CS>
+<STU_COLLEGE> Christ University </STU_COLLEGE>
+<STU_NAME>Mohak Laddha</STU_NAME>
+<STU_BRANCH>MCS</STU_BRANCH>
+<STU_EMAIL>mohak@cs.christuniversity.in</STU_EMAIL>
+</CS>
+<CS>
+<STU_COLLEGE> Christ University </STU_COLLEGE>
+<STU_NAME>Dhirendra Choudhary</STU_NAME>
+<STU_BRANCH>MCS</STU_BRANCH>
+<STU_EMAIL>dhirendra.choudhary@cs.christuniversity.in</STU_EMAIL>
+</CS>
+
+</CHRIST>
